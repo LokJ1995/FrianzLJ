@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/back"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="The North Remembers everything"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/back"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/icon"
+            android:text="Lady Sansa"
+            android:textSize="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/back"
+            android:text="\tHello\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHi\nHow are you?\n\nWhere are you? The Winter is coming dear."
+            android:textSize="28dp"
+            android:textColor="#A6A6A6"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
